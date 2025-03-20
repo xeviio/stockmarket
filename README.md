@@ -1,8 +1,8 @@
-##Opis kodu:
+Opis kodu:
 Analiza Kapitalizacji Rynkowej i Dynamiki Cen Akcji
 Ten kod w Pythonie pobiera dane o największych firmach giełdowych za pomocą Yahoo Finance (yfinance), przetwarza je równocześnie przy użyciu wielowątkowości (ThreadPoolExecutor), a następnie wyświetla w interfejsie Tkinter. Program pokazuje 10 firm o największej kapitalizacji rynkowej oraz 10 firm o największym wzroście ceny akcji w ostatnim tygodniu.
 
-##📌 Jak działa kod?
+#📌 Jak działa kod?
 Lista spółek
 
 Zdefiniowana jest lista 48 symboli giełdowych firm takich jak Apple, Microsoft, Amazon itp.
@@ -27,7 +27,7 @@ Największe firmy (pod względem kapitalizacji)
 Najszybciej rosnące firmy (pod względem wzrostu ceny akcji)
 Emoji 🔥 dla lidera wzrostu
 
-##Firma z największym tygodniowym wzrostem otrzymuje 🔥 jako wizualne wyróżnienie.
+Firma z największym tygodniowym wzrostem otrzymuje 🔥 jako wizualne wyróżnienie.
 🛠 Zastosowane technologie
 ✅ yfinance – pobieranie danych giełdowych
 ✅ Tkinter – GUI do wyświetlania wyników
